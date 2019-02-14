@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuItem_principal"
+        android:icon="@drawable/ic_restaurant_black_24dp"
+        android:title="@string/title_principal"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menuItem_entrante"
+        android:icon="@drawable/ic_local_dining_black_24dp"
+        android:title="@string/title_entrante"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menuItem_postre"
+        android:icon="@drawable/ic_icono_postre"
+        android:title="@string/title_postres"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Proyec_2_T</string>
+    <string name="title_activity_recetas">Recetas</string>
+    <string name="title_principal">Principales</string>
+    <string name="title_entrante">Entrantes</string>
+    <string name="title_postres">Postres</string>
+    <string name="title_comidas">Comidas</string>
+    <string name="title_cocineros">Cocineros</string>
+    <string name="title_perfil">Perfil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

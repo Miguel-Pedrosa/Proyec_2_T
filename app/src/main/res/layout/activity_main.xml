@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/lay_Login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtv_Registrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:paddingBottom="20dp"
+            android:text="REGISTRATE EN NUESTA APLICACION DE RECETAS"
+            android:textColor="@android:color/background_dark"
+            android:textColorLink="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/txtv_User"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USER:" />
+
+        <EditText
+            android:id="@+id/edt_Usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:paddingBottom="20dp"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/txtv_Pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PASSWORD:" />
+
+        <EditText
+            android:id="@+id/edt_Pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:paddingBottom="20dp"
+            android:text="Name" />
+
+        <Button
+            android:id="@+id/btn_Entrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:gravity="center"
+            android:text="ENTRAR" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
